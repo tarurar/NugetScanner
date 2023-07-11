@@ -77,7 +77,6 @@ if __name__ == "__main__":
             )
             git_pull_safe(os.path.join(args.root_folder, solution_dir))
 
-    # TODO: package search should be called on master branch not on current branch
     results = find_nuget_version(args.root_folder, args.package_name, args.mode)
 
     if results:
