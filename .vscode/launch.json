@@ -1,0 +1,12 @@
+{
+    "configurations": [
+        {
+            "name": "Python: File",
+            "type": "python",
+            "request": "launch",
+            "program": "main.py",
+            "justMyCode": true,
+            "args": ["--root-folder", "~/RiderProjects", "--package-name", "Lykke.Snow.Common", "--mode", "direct", "--format-md"]
+        }
+    ]
+}
